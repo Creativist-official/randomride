@@ -7,8 +7,8 @@ import Tutorial from "./components/tutorial/Tutorial";
 function App() {
   return (
     <Switch>
-      <Route path="/splash" component={Splash} />
-      <Route path="/tutorial" component={Tutorial} />
+      <Route path='/splash' component={Splash} />
+      <Route path='/tutorial' component={Tutorial} />
     </Switch>
   );
 }
