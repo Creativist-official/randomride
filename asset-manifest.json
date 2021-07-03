@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/randomride/static/css/main.13f06c35.chunk.css",
+    "main.css": "/randomride/static/css/main.3017f7e9.chunk.css",
     "main.js": "/randomride/static/js/main.c016b648.chunk.js",
     "main.js.map": "/randomride/static/js/main.c016b648.chunk.js.map",
     "runtime-main.js": "/randomride/static/js/runtime-main.f7cb50fa.js",
@@ -10,7 +10,7 @@
     "static/js/2.493a4c36.chunk.js.map": "/randomride/static/js/2.493a4c36.chunk.js.map",
     "index.html": "/randomride/index.html",
     "static/css/2.54175cf2.chunk.css.map": "/randomride/static/css/2.54175cf2.chunk.css.map",
-    "static/css/main.13f06c35.chunk.css.map": "/randomride/static/css/main.13f06c35.chunk.css.map",
+    "static/css/main.3017f7e9.chunk.css.map": "/randomride/static/css/main.3017f7e9.chunk.css.map",
     "static/js/2.493a4c36.chunk.js.LICENSE.txt": "/randomride/static/js/2.493a4c36.chunk.js.LICENSE.txt",
     "static/media/Foglie-sx.e881ed68.png": "/randomride/static/media/Foglie-sx.e881ed68.png",
     "static/media/register.css": "/randomride/static/media/SF-Pro-Display-Semibold.d562c64f.woff",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.f7cb50fa.js",
     "static/css/2.54175cf2.chunk.css",
     "static/js/2.493a4c36.chunk.js",
-    "static/css/main.13f06c35.chunk.css",
+    "static/css/main.3017f7e9.chunk.css",
     "static/js/main.c016b648.chunk.js"
   ]
 }
