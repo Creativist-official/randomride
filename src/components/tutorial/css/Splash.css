@@ -1,0 +1,30 @@
+.a-center {
+    text-align: center;
+}
+
+.p-b-30 {
+    padding-bottom: 30px;
+} 
+
+.m-t-30 {
+    margin-top: 30px!important;
+} 
+
+.start-btn {
+    width: 203px!important;
+    height: 62px!important;
+    border-radius: 12px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 22px;
+}
+
+.m-t-10 {
+    margin-top: 10px!important;
+} 
+.mt-25p {
+    margin-top: 25% !important;
+}
