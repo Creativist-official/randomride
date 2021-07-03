@@ -5,6 +5,7 @@ import SwiperCore, { Pagination } from "swiper/core";
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "./css/swiper.css";
+import "./css/fonts.css";
 
 import Page from "./components/Page";
 
@@ -30,20 +31,24 @@ function Tutorial() {
             title="Cerca e offri un passaggio senza impegno"
             description="Puoi cercare o offrire un passaggio per una località quando e come vuoi"
             img={img1}
-          alt="Ragazza che chiede passaggio"/>
+            alt="Ragazza che chiede passaggio"
+          />
         </SwiperSlide>
         <SwiperSlide>
           <Page
             title="Prenditi cura dell’ambiente"
             description="Offrendo o usufruendo un passaggio riduci le emissioni di Co2, i costi ed il traffico"
             img={img2}
-          alt=""/>
+            alt="boh"
+          />
         </SwiperSlide>
-        <SwiperSlide><Page
+        <SwiperSlide>
+          <Page
             title="Guadagna punti"
             description="Accompagnando amici in alcune qualità puoi guadagnare punti comulabili per riscattare buoni spesa e molto altro"
-          img={img3}
-        alt="Guadagna Punti e soldi"/>
+            img={img3}
+            alt="Guadagna Punti e soldi"
+          />
         </SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
       </Swiper>

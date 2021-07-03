@@ -15,7 +15,7 @@
   font-size: 21px !important;
 }
 
-.py-60 {
+.py-50 {
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -26,4 +26,14 @@
 
 .p-b-26 {
   padding-bottom: 26px;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.plant {
+  right: 80.04%;
+  top: 8.62%;
+  bottom: 37.68%;
 }

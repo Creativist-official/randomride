@@ -12,14 +12,15 @@ function Page(props) {
             </h1>
           </div>
           <div className="col-12 justify-content-center">
-            <h3 className="sf-pro-d-SBold a-center f-s-21 py-60 p-b-23">
+            <h3 className="sf-pro-d-SBold a-center f-s-21 py-50 p-b-23">
               {props.description}
             </h3>
           </div>
         </div>
       </div>
+      <img class="p-absolute plant" src={props.foglia} alt="foglia"></img>
       <img
-        className="p-b-26"
+        className="p-b-26 d-flex justify-content-center"
         src={props.img}
         alt={props.alt}
       ></img>
