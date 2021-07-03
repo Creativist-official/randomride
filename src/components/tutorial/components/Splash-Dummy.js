@@ -8,7 +8,7 @@ function Dummy() {
   return (
     <div className="col-12 d-flex justify-content-center align-items-center flex-column mt-25p">
       <h1 className="w-100 text-center">
-        <Logo />
+        <Logo/>
         <RrText />
       </h1>
       <RrSubText />
