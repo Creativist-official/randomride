@@ -1,65 +1,85 @@
 import React from "react";
-import "../css/Legenda.css";
+
 import ItemLegenda from "./ItemLegenda";
+import StartButton from "./startButton";
+
+import position from "../img/icons/position.svg";
+import marker from "../img/icons/marker.svg";
+import marker_green from "../img/icons/marker_green.svg";
+import offerta from "../img/icons/offerta.svg";
+import richiesta from "../img/icons/richiesta.svg";
+import time from "../img/icons/time.svg";
+import time_green from "../img/icons/time_green.svg";
 
 function Legenda() {
     const legenda = [
       {
         id: 1,
-        icon: "marker",
+        icon: { marker },
+        name: "marker",
         desc: "Punto di partenza",
-        color: "#32CD19",
       },
       {
         id: 2,
-        icon: "marker",
+        icon: { marker_green },
+        name: "marker_green",
         desc: "Punto di arrivo",
-        color: "#EA352B",
       },
       {
         id: 3,
-        icon: "position",
+        icon: { position },
+        name: "position",
         desc: "La tua posizione",
-        color: "#007AFF",
       },
       {
         id: 4,
-        icon: "time",
+        icon: { time },
+        name: "time",
         desc: "Durata del viaggio",
-        color: "var(--secondary)",
       },
       {
         id: 5,
-        icon: "time",
+        icon: { time_green },
+        name: "time_green",
         desc: "Orario di partenza",
-        color: "var(--success)",
       },
       {
         id: 6,
-        icon: "thumb",
+        icon: { offerta },
+        name: "offerta",
         desc: "Offerta",
-        color: "var(--secondary)",
       },
       {
         id: 7,
-        icon: "richiesta",
+        icon: { richiesta },
+        name: "richiesta",
         desc: "Richiesta",
-        color: "var(--primary)",
-      }
+      },
     ];
 
   return (
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <h1 className="sf-pro-d-bold title f-s-25 ctext-primary a-center">
+          <h1 className="sf-pro-d-bold legenda f-s-25 ctext-primary a-center">
             Legenda icone
           </h1>
         </div>
-          </div>
-      {legenda.map(item => {
-        return <ItemLegenda key={item.id} icon={item.icon} desc={item.desc} />
+      </div>
+      {legenda.map((item) => {
+        return (
+          <ItemLegenda
+            key={item.id}
+            icon={item.icon}
+            name={item.name}
+            desc={item.desc}
+          />
+        );
       })}
+
+      <div className="d-flex justify-content-center">
+        <StartButton text="Ottimo!" to="/login"/>
+      </div>
     </div>
   );
 }

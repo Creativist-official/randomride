@@ -13,7 +13,7 @@ function Input(props){
         className = "rounded-right border-l-none form-control";
     } else if (props.type === "Password") {
         LoginIcon = <Icon icon={bxLock} style={{fontSize: '18px'}} />
-        eyeIcon = <button class="rounded-right button btn btn-outline-secondary" type="button" id="button-addon2">
+        eyeIcon = <button class="d-flex align-center rounded-right button btn btn-outline-secondary" type="button" id="button-addon2">
         <Icon icon={eyeOpen} style={{color: '#152029', fontSize: '20px'}} />
     </button>
         className = "border-l-none border-r-none form-control"

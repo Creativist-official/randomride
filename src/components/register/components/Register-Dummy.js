@@ -9,19 +9,21 @@ import SmallText from "./SmallText";
 function LoginDummy(){
     return(
         <>
-            <div className="col-12 d-flex justify-content-center align-items-center flex-column">
+            <div className="col-12 d-flex justify-content-center align-items-center flex-column mb-4">
                 <h1 className="w-100 text-center">
                     <Logo scale="0.8" />
-                    <LoginText text="Login" />
+                    <LoginText text="Registrati" />
                     <div className="inputs">
+                        <Input type="Nome"/>
+                        <Input type="Cognome"/>
                         <Input type="Email"/>
                         <Input type="Password"/>
+                        <Input type="Conferma password"/>
                     </div>
-                    <Text color="primary" text="forgot" /> 
                     <Button type="continue" />
                     <Text color="dark" text="oppure" /> 
                     <Button type="google"/>
-                    <SmallText text="Non sei ancora registrato?" link="Fallo ora" linkRef="/register"/>
+                    <SmallText text="Hai già un account?" link="Accedi" linkRef="/login"/>
                 </h1>
             </div>
         </>

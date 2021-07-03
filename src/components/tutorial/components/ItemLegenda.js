@@ -1,16 +1,25 @@
 import React from 'react';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import arrowRight from '@iconify/icons-akar-icons/arrow-right';
-import "../css/Legenda.css";
+
 
 function ItemLegenda(props) {
     return (
-      <div className="row">
-        <div className="col-3"></div>
-        <div className="col-3">
-          <Icon icon={arrowRight} style={{ fontSize: "31px" }} />
+      <div className="row pb-4">
+        <div className="col-2 d-flex justify-content-end">
+          <img
+            src={props.icon[props.name]}
+            alt={props.desc}
+          >
+          </img>
         </div>
-        <div className="col-6">
+        <div className="col-2">
+          <Icon
+            icon={arrowRight}
+            style={{ fontSize: "31px", color: "#FFC107" }}
+          />
+        </div>
+        <div className="col-8">
           <h3 class="sf-pro-d-bold f-s-25">{props.desc}</h3>
         </div>
       </div>

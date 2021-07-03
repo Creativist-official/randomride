@@ -44,8 +44,10 @@
   },
   "devDependencies": {
     "@iconify/icons-akar-icons": "^1.1.15",
+    "@iconify/icons-ant-design": "^1.1.0",
     "@iconify/icons-bx": "^1.1.0",
     "@iconify/icons-el": "^1.1.0",
+    "@iconify/icons-flat-color-icons": "^1.1.0",
     "@iconify/icons-fluent": "^1.1.21",
     "@iconify/react": "^1.1.4",
     "gh-pages": "^3.2.3"

@@ -12,7 +12,7 @@ function Dummy() {
         <RrText />
       </h1>
       <RrSubText />
-      <StartButton />
+      <StartButton text="Inzia a viaggiare" margintop={true} to="/tutorial"/>
     </div>
   );
 }

@@ -26,10 +26,10 @@ function Tutorial() {
 
   return (
     <React.Fragment>
-      <Swiper
-        pagination={pagination}
-        className="mySwiper"
-      >
+      <Swiper pagination={pagination} className="mySwiper">
+        <h4 class="scorri ctext-secondary sf-pro-d-medium f-s-16 a-center">
+          Scorri per proseguire
+        </h4>
         <SwiperSlide>
           <Page
             title="Cerca e offri un passaggio senza impegno"
@@ -58,7 +58,9 @@ function Tutorial() {
             padding={true}
           />
         </SwiperSlide>
-        <SwiperSlide><Legenda /></SwiperSlide>
+        <SwiperSlide>
+          <Legenda />
+        </SwiperSlide>
       </Swiper>
     </React.Fragment>
   );

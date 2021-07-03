@@ -22,4 +22,14 @@
   opacity: 1;
   background: rgba(0, 0, 0, 0.2);
   margin-bottom: 90px !important;
+  position: relative;
+}
+
+.scorri {
+  position: absolute;
+  left: 0;
+  bottom: 14%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
 }

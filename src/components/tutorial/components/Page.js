@@ -9,7 +9,7 @@ function Page(props) {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h1 className="title sf-pro-d-bold a-center f-s-25 ctext-primary p-t-159">
+            <h1 className="title py-40 sf-pro-d-bold a-center f-s-25 ctext-primary">
               {props.title}
             </h1>
           </div>

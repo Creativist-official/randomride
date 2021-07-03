@@ -123,6 +123,10 @@
   background-color: var(--light) !important;
 }
 
+
+.mb-2{
+  margin-bottom: 20%;
+}
 .mt-5p{
   margin-top: 5% !important;
 }
@@ -174,9 +178,8 @@
   font-size: 0.875rem;
 }
 
-.bottone{
+.RegBottone{
   border-radius: 30px !important;
-  margin-bottom: 30px;
   margin-top: 30px;
   font-size: 0.875rem !important;
   height: 2.375rem;
