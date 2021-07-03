@@ -1,30 +1,37 @@
 {
   "files": {
-    "main.css": "/randomride/static/css/main.45ec9ddf.chunk.css",
-    "main.js": "/randomride/static/js/main.66e34c29.chunk.js",
-    "main.js.map": "/randomride/static/js/main.66e34c29.chunk.js.map",
+    "main.css": "/randomride/static/css/main.13f06c35.chunk.css",
+    "main.js": "/randomride/static/js/main.c016b648.chunk.js",
+    "main.js.map": "/randomride/static/js/main.c016b648.chunk.js.map",
     "runtime-main.js": "/randomride/static/js/runtime-main.f7cb50fa.js",
     "runtime-main.js.map": "/randomride/static/js/runtime-main.f7cb50fa.js.map",
     "static/css/2.54175cf2.chunk.css": "/randomride/static/css/2.54175cf2.chunk.css",
-    "static/js/2.3a208527.chunk.js": "/randomride/static/js/2.3a208527.chunk.js",
-    "static/js/2.3a208527.chunk.js.map": "/randomride/static/js/2.3a208527.chunk.js.map",
+    "static/js/2.493a4c36.chunk.js": "/randomride/static/js/2.493a4c36.chunk.js",
+    "static/js/2.493a4c36.chunk.js.map": "/randomride/static/js/2.493a4c36.chunk.js.map",
     "index.html": "/randomride/index.html",
     "static/css/2.54175cf2.chunk.css.map": "/randomride/static/css/2.54175cf2.chunk.css.map",
-    "static/css/main.45ec9ddf.chunk.css.map": "/randomride/static/css/main.45ec9ddf.chunk.css.map",
-    "static/js/2.3a208527.chunk.js.LICENSE.txt": "/randomride/static/js/2.3a208527.chunk.js.LICENSE.txt",
+    "static/css/main.13f06c35.chunk.css.map": "/randomride/static/css/main.13f06c35.chunk.css.map",
+    "static/js/2.493a4c36.chunk.js.LICENSE.txt": "/randomride/static/js/2.493a4c36.chunk.js.LICENSE.txt",
     "static/media/Foglie-sx.e881ed68.png": "/randomride/static/media/Foglie-sx.e881ed68.png",
-    "static/media/login.css": "/randomride/static/media/SF-Pro-Display-Semibold.d562c64f.woff",
+    "static/media/register.css": "/randomride/static/media/SF-Pro-Display-Semibold.d562c64f.woff",
     "static/media/fonts.css": "/randomride/static/media/SF-Pro-Display-Medium.9d8a1c3e.woff",
     "static/media/img-page1.9dee62a7.png": "/randomride/static/media/img-page1.9dee62a7.png",
     "static/media/img-page2.1490b80b.png": "/randomride/static/media/img-page2.1490b80b.png",
     "static/media/img-page3.31544ba5.png": "/randomride/static/media/img-page3.31544ba5.png",
-    "static/media/logo_car.a56f9d9d.svg": "/randomride/static/media/logo_car.a56f9d9d.svg"
+    "static/media/logo_car.a56f9d9d.svg": "/randomride/static/media/logo_car.a56f9d9d.svg",
+    "static/media/marker.14bced29.svg": "/randomride/static/media/marker.14bced29.svg",
+    "static/media/marker_green.3fecd466.svg": "/randomride/static/media/marker_green.3fecd466.svg",
+    "static/media/offerta.9ec5d364.svg": "/randomride/static/media/offerta.9ec5d364.svg",
+    "static/media/position.cd94c302.svg": "/randomride/static/media/position.cd94c302.svg",
+    "static/media/richiesta.cfe516ac.svg": "/randomride/static/media/richiesta.cfe516ac.svg",
+    "static/media/time.6c80e23f.svg": "/randomride/static/media/time.6c80e23f.svg",
+    "static/media/time_green.f7dbba0f.svg": "/randomride/static/media/time_green.f7dbba0f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f7cb50fa.js",
     "static/css/2.54175cf2.chunk.css",
-    "static/js/2.3a208527.chunk.js",
-    "static/css/main.45ec9ddf.chunk.css",
-    "static/js/main.66e34c29.chunk.js"
+    "static/js/2.493a4c36.chunk.js",
+    "static/css/main.13f06c35.chunk.css",
+    "static/js/main.c016b648.chunk.js"
   ]
 }
