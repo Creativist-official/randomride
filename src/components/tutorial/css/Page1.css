@@ -1,0 +1,29 @@
+.title {
+  margin-top: 115px;
+  margin-bottom: 85px;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.f-s-25 {
+  font-size: 25px !important;
+}
+
+.f-s-21 {
+  font-size: 21px !important;
+}
+
+.py-60 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.p-b-23 {
+  padding-bottom: 23px;
+}
+
+.p-b-26 {
+  padding-bottom: 26px;
+}
