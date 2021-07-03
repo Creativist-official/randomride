@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Nexa Bold";
+  src: local("Nexa Bold"), url("./fonts/Nexa_Bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Nexa Light";
+  src: local("Nexa Light"), url("./fonts/Nexa_Light.woff") format("woff");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: local("SF Pro Display Bold"),
+    url("./fonts/SF-Pro-Display-Bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: local("SF Pro Display Medium"),
+    url("./fonts/SF-Pro-Display-Medium.woff") format("woff");
+  font-weight: medium;
+}
+
+.nexaBold {
+  font-family: "Nexa Bold";
+  font-weight: bold;
+}
+
+.nexaLight {
+  font-family: "Nexa Light";
+  font-weight: light;
+}
+
+.SFPDBold {
+  font-family: "SF Pro Display Bold";
+  font-weight: bold;
+}
+
+.SFPDMedium {
+  font-family: "SF Pro Display Medium";
+  font-weight: medium;
+}
+
+.fs-42 {
+  font-size: 42px;
+}
+.fs-25 {
+  font-size: 25px;
+}
