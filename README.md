@@ -8,6 +8,6 @@ RandomRide ti consente di chiedere o offrire un passaggio ai tuoi amici quando, 
 
 ## Come usarlo?
 
-Al momento l'app è in fase di sviluppo. In ogni caso, puoi dare un'occhiata [qui](https://github.com/Creativist-official/randomride).
+Al momento l'app è in fase di sviluppo. In ogni caso, puoi dare un'occhiata [qui]( https://creativist-official.github.io/randomride/#/splash).
 
 ## [Presentazione ufficiale](https://youtu.be/eeu6M8sspBs)
